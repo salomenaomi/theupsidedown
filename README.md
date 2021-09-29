@@ -15,8 +15,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
-https://salomenaomi.github.io/theupsidedown/
-  
 ### Auteur:
 Salomé de Ruiter (vervangen door jouw naam)
 
