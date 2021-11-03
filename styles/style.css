@@ -11,6 +11,7 @@
   --textcolor4: white;
   --bordercolor: white;
   --bordercolor2: black;
+  color-scheme: light dark;
 }
 
 /* Lettertype gehele pagina */
@@ -76,6 +77,7 @@ header nav {
 header nav.uitschuiven {
    transform: translateX(0);
    background: var(--color3);
+   transition: 0.3s;
 }
 
 header nav ul li {
@@ -192,6 +194,13 @@ button {
   background-color: var(--color3);
 }
 
+.dark-mode {
+  background: var(--color2);
+  color: var(--textcolor3);
+  padding: 1em;
+  border-radius: 30px;
+}
+
 section:nth-of-type(2) article:nth-of-type(2) ul li {
   font-size: 1.5em;
   padding: 0.5em 0.15em;
@@ -299,6 +308,52 @@ input:nth-of-type(2):hover, input:nth-of-type(2):focus {
   background-color: var(--color4);
 }
 
+/* Animaties */
+@keyframes logoDraaien {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(180deg) scale(1.5);
+  }
+}
+
+@keyframes logoDraaien2 {
+  0% {
+     transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes socialsVergroten {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+header section img:first-of-type:hover {
+  animation-name: logoDraaien;
+  animation-duration: 1s;
+}
+
+body section:nth-of-type(2) article:nth-of-type(2) ul li img:hover {
+  animation-name: logoDraaien2;
+  animation-duration: 1s;
+}
+
+footer section:first-of-type ul li img:hover {
+  animation-name: socialsVergroten;
+  animation-duration: 5s;
+}
+
 /* Code voor de Experience pagina */
 body section:nth-of-type(2) article {
     align-self: center;
@@ -362,7 +417,7 @@ body section:nth-of-type(2) article:nth-of-type(4) p, body section:nth-of-type(2
     --textcolor2: black;
     --textcolor3: white;
     --textcolor4: black;
-    }
+  }
   
   button {
     background-image: url(../images/hamburgermenu-dark.png);

@@ -1,26 +1,11 @@
-const button = document.querySelector("#button");
+const button = document.querySelector("button");
 const nav = document.querySelector('nav');
-
-const menuButton = "images/hamburgermenu.png";
-const kruisje = "images/kruisje.png";
-const aantalKeerKlikken = 0;
+let geklikt = false;
 
 button.addEventListener("click", hamburgerMenu);
-button.addEventListener("click", hamburgerMenuVeranderen);
 
-function hamburgerMenu () {
-  nav.classList.toggle('uitschuiven');
-  console.log("Ik ben geklikt");
+function hamburgerMenu() {
+  nav.classList.toggle('uitschuiven'); // als er geklikt is schuift het menu uit door code in css
+  geklikt = geklikt ? false : true; // verandert de afbeelding adhv de waarde van de boolean waardoor het menu een kruisje wordt
+  button.style.background = geklikt ? 'url(../images/kruisje.png)' : 'url(../images/hamburgermenu.png)'; 
 }
-
-// function hamburgerMenuVeranderen() {
-//   button.src = menuButton;
-//   aantalKeerKlikken++;
-//   if (aantalKeerKlikken % 2 != 0); {
-//     button.src = kruisje;
-//     console.log("Ik ben anders geklikt");
-//   } else (aantalKeerKlikken % 2 = 0); {
-//     button.src = menuButton;
-
-// }
-// }
