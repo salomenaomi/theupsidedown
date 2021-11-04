@@ -14,9 +14,12 @@
   color-scheme: light dark;
 }
 
-/* Lettertype gehele pagina */
+/* Lettertype en kleur gehele pagina */
 html {
   font-family: Roboto, sans-serif;
+}
+
+body {
   background-color: var(--color1);
 }
 
@@ -89,7 +92,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 header nav ul li:nth-of-type(7) {
-  padding-top: 7.3em;
+  padding-top: 6em;
 }
 
 header nav a {
@@ -194,7 +197,7 @@ button {
   background-color: var(--color3);
 }
 
-.dark-mode {
+.buttondark-mode {
   background: var(--color2);
   color: var(--textcolor3);
   padding: 1em;
@@ -271,6 +274,10 @@ footer section:nth-of-type(3) ul:first-of-type {
   text-align: left;
   margin-left: 1em;
   line-height: 30px;
+}
+
+footer section:nth-of-type(3) ul:last-of-type li:hover {
+  color: var(--color3);
 }
 
 footer section:nth-of-type(3) ul:first-of-type li:nth-of-type(3) {
@@ -407,6 +414,17 @@ body section:nth-of-type(2) article:nth-of-type(4) p, body section:nth-of-type(2
 }
 
 /* Code voor de dark mode */
+body.dark-mode {
+    --color1: #38444c;
+    --color2: #38444c;
+    --color3: #ff4d70;
+    --color4: #84bba4;
+    --textcolor: white;
+    --textcolor2: black;
+    --textcolor3: white;
+    --textcolor4: black;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color1: #38444c;
@@ -417,14 +435,6 @@ body section:nth-of-type(2) article:nth-of-type(4) p, body section:nth-of-type(2
     --textcolor2: black;
     --textcolor3: white;
     --textcolor4: black;
-  }
-  
-  button {
-    background-image: url(../images/hamburgermenu-dark.png);
-  }
-
-  article img, section:nth-of-type(2) article:nth-of-type(2) ul li, .button, .button2, .button3, .dark {
-    filter: brightness(.85) contrast(1.2);
   }
 
   .h1 {

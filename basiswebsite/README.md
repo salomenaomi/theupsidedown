@@ -39,12 +39,25 @@ Surface plane (kies uit responsive óf surface plane)
 https://the-upsidedown.com/
 
 #### Screenshot(s) van de eerste pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Homepagina
+<img src="images/helepagina1.jepg" width="375px" alt="Homepagina">
+<img src="images/helepagina2.jepg" width="375px" alt="Homepagina">
+<img src="images/helepagina3.jepg" width="375px" alt="Homepagina">
+<img src="images/helepagina4.jepg" width="375px" alt="Homepagina">
+<img src="images/helepagina5.jepg" width="375px" alt="Homepagina">
+<img src="images/helepagina6.jepg" width="375px" alt="Homepagina">
+
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Experience pagina
+<img src="images/experiencepagina1.jpeg" width="375px" alt="Experience pagina">
+<img src="images/experiencepagina2.jpeg" width="375px" alt="Experience pagina">
+<img src="images/experiencepagina3.jpeg" width="375px" alt="Experience pagina">
+<img src="images/experiencepagina4.jpeg" width="375px" alt="Experience pagina">
+<img src="images/experiencepagina5.jpeg" width="375px" alt="Experience pagina">
+<img src="images/experiencepagina6.jpeg" width="375px" alt="Experience pagina">
+<img src="images/experiencepagina7.jpeg" width="375px" alt="Experience pagina">
+<img src="images/experiencepagina8.jpeg" width="375px" alt="Experience pagina">
 
 </details>
 
@@ -58,21 +71,147 @@ hier de naam van de pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina:
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+<body>
+  <header>
+    <section>
+      <picture>
+         <img>
+      </picture>
+      <a href="#"></a>
+      <button></button>
+    </section>
+    <nav>
+      <ul>
+         <li><a href="#"></a></li>
+         <li><a href="#"></a></li>
+         <li><a href="#"></a></li>
+         <li><a href="#"></a></li>
+         <li><a href="#"></a></li>
+         <li><a href="#"></a></li>
+         <li><img></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+     <img>
+     <h1></h1>
+     <p></p>
+     <p></p>
+     <p></p>
+     <p></p>
+  </section>
+  <section>
+    <article>
+      <img>
+      <h2></h2>
+      <p></p>
+      <a href="#"></a>
+    </article>
+    <article>
+      <h2></h2>
+      <p></p>
+      <ul>
+         <li><a href="#">></li>
+         <li><a href="#">></li>
+         <li><a href="#">></li>
+         <li><a href="#">></li>
+         <li><a href="#">></li>
+      </ul>
+      <img>
+    </article>
+  </section>
+  <section>
+     <h2></h2>
+     <a></a>
+  </section>
+  <footer>
+    <section>
+      <h2></h2>
+      <ul>
+         <li><img></li>
+         <li><img></li>
+         <li><img></li>
+         <li><img></li>
+      </ul>
+      <form>
+        <input type="email" placeholder="Your email address">
+        <input type="submit" value="Send">
+      </form>
+    </section>
+    <section>
+      <ul>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+      </ul>
+      <ul>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+      </ul>
+    </section>
+    <section>
+      <ul>
+        <li>
+          <picture> 
+             <img>
+          </picture>
+        </li>
+        <li></li>
+        <li><a></a></li>
+      </ul>
+      <ul>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>          
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+      </ul>
+    </section>
+  </footer>
+</body>
+</html>
+
 
 ### dynamisch deel (bijv menu):
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter):
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+<img src="images/dynamischdeel.jpeg" width="375px" alt="breakdown van een dynamisch deel">
+Nav element met daarin een unordered list met list items, met daarin a elementen (linkjes) en onderin een image.
+<nav>
+      <ul>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li></button></li>        
+        <li><img></li>
+      </ul>
 </details>
 
 
 
 
 
-## Voortgang 1 (week 2)
+## Voortgang 1 (week 4)
 
 <details>
 <summary>uitwerken voor 1e voortgang</summary>
@@ -80,24 +219,21 @@ hier de naam van de pagina
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Wat ging goed: HTML van de pagina's, koppelen CSS en makkelijke dingen stylen.
+Wat was lastig: Sommige elementen de goede breedte geven, beginnen met javascript voor het uitschuif menu.
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Tips om te beginnen met CSS en wat doe ik fout bij mijn javascript code. Verder of mijn html volgens de regels is.
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Html sommige h1 en p's in ul en li's zetten
+- Geholpen met javascript
+- Op weg geholpen met CSS -> flex, keyframes gebruiken
 
 </details>
 
@@ -105,7 +241,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 
 
-## Voortgang 2 (week 3)
+## Voortgang 2 (week 8)
 
 <details>
 <summary>uitwerken voor 2e voortgang</summary>
@@ -113,24 +249,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Wat ging goed: beide pagina's stylen en zelfs paar dingen voor de surface plane
+Wat was lastig: alle eisen voor de surface plane opdracht op orde krijgen
+
 
 ### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Laten zien wat ik heb en vragen naar dingen om verder nog uit te werken voor de surface plane die van toepassing zijn op mijn website.
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- toggle voor de dark mode maken
+- extra keyframes toevoegen voor interactie
+- transition toevoegen
 
 </details>
 
@@ -138,71 +269,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 
 
-## Toegankelijkheidstest (week 4)
-
-<details>
-<summary>uitwerken na test in 8e voortgang</summary>
-
-### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding.
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding.
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding.
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-</details>
 
 
 
 
 
-## Voortgang 3 (week 4)
-
-<details>
-<summary>uitwerken voor 3e voortgang</summary>
-
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
-
-</details>
 
 
 
