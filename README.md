@@ -40,12 +40,12 @@ https://the-upsidedown.com/
 
 #### Screenshot(s) van de eerste pagina (small screen):
 Homepagina
-<img src="images/helepagina1.jepg" width="375px" alt="Homepagina">
-<img src="images/helepagina2.jepg" width="375px" alt="Homepagina">
-<img src="images/helepagina3.jepg" width="375px" alt="Homepagina">
-<img src="images/helepagina4.jepg" width="375px" alt="Homepagina">
-<img src="images/helepagina5.jepg" width="375px" alt="Homepagina">
-<img src="images/helepagina6.jepg" width="375px" alt="Homepagina">
+<img src="images/helepagina1.jpeg" width="375px" alt="Homepagina">
+<img src="images/helepagina2.jpeg" width="375px" alt="Homepagina">
+<img src="images/helepagina3.jpeg" width="375px" alt="Homepagina">
+<img src="images/helepagina4.jpeg" width="375px" alt="Homepagina">
+<img src="images/helepagina5.jpeg" width="375px" alt="Homepagina">
+<img src="images/helepagina6.jpeg" width="375px" alt="Homepagina">
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
@@ -71,126 +71,7 @@ Experience pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina:
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title></title>
-</head>
-<body>
-  <header>
-    <section>
-      <picture>
-         <img>
-      </picture>
-      <a href="#"></a>
-      <button></button>
-    </section>
-    <nav>
-      <ul>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><a href="#"></a></li>
-         <li><img></li>
-      </ul>
-    </nav>
-  </header>
-  <section>
-     <img>
-     <h1></h1>
-     <p></p>
-     <p></p>
-     <p></p>
-     <p></p>
-  </section>
-  <section>
-    <article>
-      <img>
-      <h2></h2>
-      <p></p>
-      <a href="#"></a>
-    </article>
-    <article>
-      <h2></h2>
-      <p></p>
-      <ul>
-         <li><a href="#">></li>
-         <li><a href="#">></li>
-         <li><a href="#">></li>
-         <li><a href="#">></li>
-         <li><a href="#">></li>
-      </ul>
-      <img>
-    </article>
-  </section>
-  <section>
-     <h2></h2>
-     <a></a>
-  </section>
-  <footer>
-    <section>
-      <h2></h2>
-      <ul>
-         <li><img></li>
-         <li><img></li>
-         <li><img></li>
-         <li><img></li>
-      </ul>
-      <form>
-        <input type="email" placeholder="Your email address">
-        <input type="submit" value="Send">
-      </form>
-    </section>
-    <section>
-      <ul>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ul>
-      <ul>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ul>
-    </section>
-    <section>
-      <ul>
-        <li>
-          <picture> 
-             <img>
-          </picture>
-        </li>
-        <li></li>
-        <li><a></a></li>
-      </ul>
-      <ul>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>          
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ul>
-    </section>
-  </footer>
-</body>
-</html>
-
+<img src="images/breakdownschets.pdf" width="375px" alt="Breakdownschets">
 
 ### dynamisch deel (bijv menu):
 <img src="images/dynamischdeel.jpeg" width="375px" alt="breakdown van een dynamisch deel">
