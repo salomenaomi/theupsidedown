@@ -71,7 +71,10 @@ Experience pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina:
-<img src="images/breakdownschets.pdf" width="375px" alt="Breakdownschets">
+<img src="images/breakdownschets1.jpg" width="375px" alt="Breakdownschets">
+<img src="images/breakdownschets2.jpg" width="375px" alt="Breakdownschets">
+<img src="images/breakdownschets3.jpg" width="375px" alt="Breakdownschets">
+
 
 ### dynamisch deel (bijv menu):
 <img src="images/dynamischdeel.jpeg" width="375px" alt="breakdown van een dynamisch deel">
