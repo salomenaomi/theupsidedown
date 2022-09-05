@@ -259,7 +259,9 @@ footer section:nth-of-type(2) ul {
 
 footer section:nth-of-type(2) ul:last-of-type {
   justify-content: flex-end;
+  max-width: 50%;
   margin-left: 10em;
+  /* margin-left: 16em; */
 }
 
 footer section:nth-of-type(3) {
@@ -287,6 +289,7 @@ footer section:nth-of-type(3) ul:first-of-type li:nth-of-type(3) {
 footer section:nth-of-type(3) ul:last-of-type {
   justify-content: flex-end;
   margin-left: 6em;
+  /* margin-left: 14em; */
   text-align: end;
   text-decoration: underline;
   line-height: 35px;
@@ -346,7 +349,7 @@ input:nth-of-type(2):hover, input:nth-of-type(2):focus {
   }
 }
 
-header section img:first-of-type:hover {
+header section div:hover {
   animation-name: logoDraaien;
   animation-duration: 1s;
 }
@@ -414,30 +417,31 @@ body section:nth-of-type(2) article:nth-of-type(4) p, body section:nth-of-type(2
 }
 
 /* Code voor de dark mode */
-body.dark-mode {
-    --color1: #38444c;
-    --color2: #38444c;
-    --color3: #ff4d70;
-    --color4: #84bba4;
-    --textcolor: white;
-    --textcolor2: black;
-    --textcolor3: white;
-    --textcolor4: black;
+.dark-mode {
+  --color1: #38444c;
+  --color2: #38444c;
+  --color3: #ff4d70;
+  --color4: #84bba4;
+  --textcolor: white;
+  --textcolor2: black;
+  --textcolor3: white;
+  --textcolor4: black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color1: #38444c;
-    --color2: #38444c;
-    --color3: #ff4d70;
-    --color4: #84bba4;
-    --textcolor: white;
-    --textcolor2: black;
-    --textcolor3: white;
-    --textcolor4: black;
-  }
+body header section div {
+  width: 50px;
+  height: 50px;
+  background: url(../images/logo.png) no-repeat center/cover;
+}
 
-  .h1 {
-    background: url(../images/rozeblauw-dark.png) no-repeat center/cover;
-  }
+.dark-mode body header section div {
+  background: url(../images/logo-dark.png) no-repeat center/cover;
+}
+
+.dark-mode body header section button {
+  background: url(../images/hamburgermenu-dark.png) !important;
+}
+
+.dark-mode .h1 {
+  background: url(../images/rozeblauw-dark.png) no-repeat center/cover;
 }
