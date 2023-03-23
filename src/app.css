@@ -1,0 +1,146 @@
+:root {
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+  font-family: 'Montserrat', sans-serif;  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --orange: #FF9900;
+  --black: #2a2a2a;
+  --white: #FFFFFF;
+  --darkgrey: #6a6a6a;
+  --boxshadow: #979797;
+  --disabledbutton: #e9e8e8;
+  --disabledtext: #979797;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: #F0F0F0;
+  padding: 0.5em;
+  color: var(--black);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+section {
+  background-color: #FFFFFF;
+  border-radius: 0.5em;
+  padding: 2em 1em 2em 0em;
+}
+
+section.samenvoegen {
+  border-radius: 0em 0em 0.5em 0.5em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2, h3, h4, p, button, label {
+  font-size: 13px;
+}
+    
+h2, h3 {
+  font-weight: 600;
+  color: #FF9900;
+  margin-top: 0;
+}
+
+h3 {
+  font-style: italic;
+  text-align: start;
+}
+
+h4 {
+  font-weight: 600;
+  text-align: start;
+}
+
+p {
+  text-align: left;
+  padding-left: 1em;
+}
+
+button {
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  background-color: var(--orange);
+  border-radius: 0.9em;
+  padding: 0.5em 2em;
+  box-shadow: 5px 1px 10px var(--boxshadow);
+  color: var(--white);
+}
+
+.disabledButton {
+  background-color: var(--disabledbutton);
+  color: var(--disabledtext);
+}
+
+.terugbutton {
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid var(--orange);
+  margin-right: 0.5em;
+}
+
+/* .checkbox {
+  background-color: #FFFFFF;
+  border: solid #6a6a6a 2px;
+  border-radius: 0.5em;
+  color: #2a2a2a;
+  margin: 1em 0.5em;
+  text-align: start;
+  min-height: 5.4em;
+}
+
+.checkbox label span {
+  position: absolute;
+  padding: 0.3em 2.9em 0.5em 0.5em;
+}
+
+.checkbox label input {
+  appearance: none;
+  padding: 0.36em;
+  border: 2px solid #6a6a6a;
+  border-radius: 0.2em;
+  margin-top: 2em;
+  margin-left: 0.2em; 
+}
+
+.checkbox input:checked {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25.657' height='19.657' viewBox='0 0 25.657 19.657'%3E%3Cg id='Check_Icon' data-name='Check Icon' transform='translate(2.828 2.828)'%3E%3Cline id='Line_1593' data-name='Line 1593' x2='6' y2='6' transform='translate(0 8)' fill='none' stroke='%23f90' stroke-linecap='round' stroke-width='4'/%3E%3Cline id='Line_1594' data-name='Line 1594' y1='14' x2='14' transform='translate(6)' fill='none' stroke='%23f90' stroke-linecap='round' stroke-width='4'/%3E%3C/g%3E%3C/svg%3E");
+  background-size: 0.7em 0.7em;
+  background-repeat: no-repeat;
+}
+
+.clicked1, .clicked2, .clicked3, .clicked4, .clicked5, .clicked6, .clicked7 {
+  border-color: #FF9900;
+} */
+
+/* button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */

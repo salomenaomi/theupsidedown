@@ -1,197 +1,47 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+# Svelte + Vite
 
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
+This template should help get you started developing with Svelte in Vite.
 
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
+## Recommended IDE Setup
 
+[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
+## Need an official Svelte framework?
 
+Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
 
+## Technical considerations
 
-## Jij
+**Why use this over SvelteKit?**
 
-<details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+- It brings its own routing solution which might not be preferable for some users.
+- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
 
-### Auteur:
-Salomé de Ruiter (vervangen door jouw naam)
+This template contains as little as possible to get started with Vite + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
 
-#### Je startniveau:
-Blauw (kies uit zwart, rood óf blauw)
+Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
 
-#### Je focus:
-Surface plane (kies uit responsive óf surface plane)
+**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
 
-</details>
+Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
 
+**Why include `.vscode/extensions.json`?**
 
+Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
 
+**Why enable `checkJs` in the JS template?**
 
+It is likely that most cases of changing variable types in runtime are likely to be accidental, rather than deliberate. This provides advanced typechecking out of the box. Should you like to take advantage of the dynamically-typed nature of JavaScript, it is trivial to change the configuration.
 
-## Je website
+**Why is HMR not preserving my local component state?**
 
-<details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
 
-### Je opdracht:
-https://the-upsidedown.com/
+If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
 
-#### Screenshot(s) van de eerste pagina (small screen):
-Homepagina
-<img src="images/helepagina1.jpeg" width="375px" alt="Homepagina">
-<img src="images/helepagina2.jpeg" width="375px" alt="Homepagina">
-<img src="images/helepagina3.jpeg" width="375px" alt="Homepagina">
-<img src="images/helepagina4.jpeg" width="375px" alt="Homepagina">
-<img src="images/helepagina5.jpeg" width="375px" alt="Homepagina">
-<img src="images/helepagina6.jpeg" width="375px" alt="Homepagina">
-
-
-#### Screenshot(s) van de tweede pagina (small screen):
-Experience pagina
-<img src="images/experiencepagina1.jpeg" width="375px" alt="Experience pagina">
-<img src="images/experiencepagina2.jpeg" width="375px" alt="Experience pagina">
-<img src="images/experiencepagina3.jpeg" width="375px" alt="Experience pagina">
-<img src="images/experiencepagina4.jpeg" width="375px" alt="Experience pagina">
-<img src="images/experiencepagina5.jpeg" width="375px" alt="Experience pagina">
-<img src="images/experiencepagina6.jpeg" width="375px" alt="Experience pagina">
-<img src="images/experiencepagina7.jpeg" width="375px" alt="Experience pagina">
-<img src="images/experiencepagina8.jpeg" width="375px" alt="Experience pagina">
-
-</details>
-
-
-
-
-
-## Breakdownschets (week 1)
-
-<details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
-
-### de hele pagina:
-<img src="images/breakdownschets1.jpg" width="375px" alt="Breakdownschets">
-<img src="images/breakdownschets2.jpg" width="375px" alt="Breakdownschets">
-<img src="images/breakdownschets3.jpg" width="375px" alt="Breakdownschets">
-
-
-### dynamisch deel (bijv menu):
-<img src="images/dynamischdeel.jpeg" width="375px" alt="breakdown van een dynamisch deel">
-Nav element met daarin een unordered list met list items, met daarin a elementen (linkjes) en onderin een image.
-<nav>
-      <ul>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li><a></a></li>
-        <li></button></li>        
-        <li><img></li>
-      </ul>
-</details>
-
-
-
-
-
-## Voortgang 1 (week 4)
-
-<details>
-<summary>uitwerken voor 1e voortgang</summary>
-
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-Wat ging goed: HTML van de pagina's, koppelen CSS en makkelijke dingen stylen.
-Wat was lastig: Sommige elementen de goede breedte geven, beginnen met javascript voor het uitschuif menu.
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-Tips om te beginnen met CSS en wat doe ik fout bij mijn javascript code. Verder of mijn html volgens de regels is.
-
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- Html sommige h1 en p's in ul en li's zetten
-- Geholpen met javascript
-- Op weg geholpen met CSS -> flex, keyframes gebruiken
-
-</details>
-
-
-
-
-
-## Voortgang 2 (week 8)
-
-<details>
-<summary>uitwerken voor 2e voortgang</summary>
-
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-Wat ging goed: beide pagina's stylen en zelfs paar dingen voor de surface plane
-Wat was lastig: alle eisen voor de surface plane opdracht op orde krijgen
-
-
-### Agenda voor meeting
-Laten zien wat ik heb en vragen naar dingen om verder nog uit te werken voor de surface plane die van toepassing zijn op mijn website.
-
-### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- toggle voor de dark mode maken
-- extra keyframes toevoegen voor interactie
-- transition toevoegen
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Eindgesprek (week 5)
-
-<details>
-<summary>uitwerken voor eindgesprek</summary>
-
-### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
-
-</details>
-
-
-
-
-
-## Bronnenlijst
-
-<details open>
-<summary>continu bijhouden terwijl je werkt</summary>
-
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-1. bron 1
-2. bron 2
-3. ...
-
-</details>
+```js
+// store.js
+// An extremely simple external store
+import { writable } from 'svelte/store'
+export default writable(0)
+```
